@@ -7,6 +7,7 @@ call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'
 Plugin 'pangloss/vim-javascript'
 Plugin 'mxw/vim-jsx'
+Plugin 'kien/ctrlp.vim'
 call vundle#end()            " required
 
 filetype plugin indent on    " required

@@ -11,8 +11,9 @@ fi
 export PATH
 
 # User specific aliases and functions
-
 alias ll='ls -hal --color=auto'
+alias ..='cd ..'
+alias ...='cd ..;cd ..'
 export EDITOR=vim
 
 # Remove audible bell, set visual bell

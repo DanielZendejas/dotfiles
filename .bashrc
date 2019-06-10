@@ -29,6 +29,10 @@ fi
 # Vim commands for the shell
 set -o vi
 
+# xclip copy and paste to actual system clipboard
+alias cs='xclip -selection clipboard'
+alias vs='xclip -o -selection clipboard'
+
 # Config files aliases
 alias brc='vim ~/.bashrc'
 alias sbrc='source ~/.bashrc'

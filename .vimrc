@@ -13,6 +13,7 @@ call vundle#end()            " required
 filetype plugin indent on    " required
 set number
 
+" Sensible indentation
 set tabstop=2
 set shiftwidth=2
 set expandtab
@@ -28,3 +29,6 @@ map <Leader>h <C-W>h
 map <Leader>l <C-W>l
 map <Leader>j <C-W>j
 map <Leader>k <C-W>k
+
+" CtrlP
+let g:ctrlp_custom_ignore = { 'dir': '\v[\/]node_modules$' }
